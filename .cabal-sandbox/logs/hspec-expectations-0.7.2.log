@@ -1,6 +1,0 @@
-Registering hspec-expectations-0.7.2...
-l-deduction\.cabal-sandbox\x86_64-windows-ghc-7.8.3\hspec-expectations-0.7.2
-Expectations.Contrib ( src\Test\Hspec\Expectations\Contrib.hs, dist\dist-sandbox-8993f234\build\Test\Hspec\Expectations\Contrib.o )
-[2 of 3] Compiling Test.Hspec.Expectations.Matcher ( src\Test\Hspec\Expectations\Matcher.hs, dist\dist-sandbox-8993f234\build\Test\Hspec\Expectations\Matcher.o )
-[3 of 3] Compiling Test.Hspec.Expectations ( src\Test\Hspec\Expectations.hs, dist\dist-sandbox-8993f234\build\Test\Hspec\Expectations.o )
-In-place registering hspec-expectations-0.7.2...
