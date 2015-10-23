@@ -1,6 +1,6 @@
 Registering ansi-terminal-0.6.2.3...
-ural-induction\.cabal-sandbox\x86_64-windows-ghc-7.8.3\ansi-terminal-0.6.2.3
-.ANSI.Windows.Foreign ( System\Console\ANSI\Windows\Foreign.hs, dist\dist-sandbox-a6b56ea4\build\System\Console\ANSI\Windows\Foreign.o )
+ural-deduction\.cabal-sandbox\x86_64-windows-ghc-7.8.3\ansi-terminal-0.6.2.3
+.ANSI.Windows.Foreign ( System\Console\ANSI\Windows\Foreign.hs, dist\dist-sandbox-8993f234\build\System\Console\ANSI\Windows\Foreign.o )
 
 System\Console\ANSI\Windows\Foreign.hs:233:1: Warning:
     the 'stdcall' calling convention is unsupported on this platform,
@@ -75,9 +75,9 @@ System\Console\ANSI\Windows\Foreign.hs:244:1: Warning:
         :: HANDLE
            -> Ptr SMALL_RECT
               -> Ptr SMALL_RECT -> UNPACKED_COORD -> Ptr CHAR_INFO -> IO BOOL
-[2 of 6] Compiling System.Console.ANSI.Common ( System\Console\ANSI\Common.hs, dist\dist-sandbox-a6b56ea4\build\System\Console\ANSI\Common.o )
-[3 of 6] Compiling System.Console.ANSI.Unix ( System\Console\ANSI\Unix.hs, dist\dist-sandbox-a6b56ea4\build\System\Console\ANSI\Unix.o )
-[4 of 6] Compiling System.Console.ANSI.Windows.Emulator ( System\Console\ANSI\Windows\Emulator.hs, dist\dist-sandbox-a6b56ea4\build\System\Console\ANSI\Windows\Emulator.o )
+[2 of 6] Compiling System.Console.ANSI.Common ( System\Console\ANSI\Common.hs, dist\dist-sandbox-8993f234\build\System\Console\ANSI\Common.o )
+[3 of 6] Compiling System.Console.ANSI.Unix ( System\Console\ANSI\Unix.hs, dist\dist-sandbox-8993f234\build\System\Console\ANSI\Unix.o )
+[4 of 6] Compiling System.Console.ANSI.Windows.Emulator ( System\Console\ANSI\Windows\Emulator.hs, dist\dist-sandbox-8993f234\build\System\Console\ANSI\Windows\Emulator.o )
 
 System\Console\ANSI\Windows\Emulator.hs:103:5: Warning:
     A do-notation statement discarded a result of type `DWORD'
@@ -92,6 +92,6 @@ System\Console\ANSI\Windows\Emulator.hs:104:5: Warning:
       `_ <- fillConsoleOutputAttribute
               handle clearAttribute fill_length fill_cursor_pos'
     or by using the flag -fno-warn-unused-do-bind
-[5 of 6] Compiling System.Console.ANSI.Windows ( System\Console\ANSI\Windows.hs, dist\dist-sandbox-a6b56ea4\build\System\Console\ANSI\Windows.o )
-[6 of 6] Compiling System.Console.ANSI ( System\Console\ANSI.hs, dist\dist-sandbox-a6b56ea4\build\System\Console\ANSI.o )
+[5 of 6] Compiling System.Console.ANSI.Windows ( System\Console\ANSI\Windows.hs, dist\dist-sandbox-8993f234\build\System\Console\ANSI\Windows.o )
+[6 of 6] Compiling System.Console.ANSI ( System\Console\ANSI.hs, dist\dist-sandbox-8993f234\build\System\Console\ANSI.o )
 In-place registering ansi-terminal-0.6.2.3...

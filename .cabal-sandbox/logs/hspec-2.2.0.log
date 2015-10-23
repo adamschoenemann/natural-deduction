@@ -1,10 +1,10 @@
 Registering hspec-2.2.0...
-ojects\natural-induction\.cabal-sandbox\x86_64-windows-ghc-7.8.3\hspec-2.2.0
-est\Hspec\HUnit.hs, dist\dist-sandbox-a6b56ea4\build\Test\Hspec\HUnit.o )
-[2 of 7] Compiling Test.Hspec.Formatters ( src\Test\Hspec\Formatters.hs, dist\dist-sandbox-a6b56ea4\build\Test\Hspec\Formatters.o )
-[3 of 7] Compiling Test.Hspec.Discover ( src\Test\Hspec\Discover.hs, dist\dist-sandbox-a6b56ea4\build\Test\Hspec\Discover.o )
-[4 of 7] Compiling Test.Hspec.Runner ( src\Test\Hspec\Runner.hs, dist\dist-sandbox-a6b56ea4\build\Test\Hspec\Runner.o )
-[5 of 7] Compiling Test.Hspec.Core  ( src\Test\Hspec\Core.hs, dist\dist-sandbox-a6b56ea4\build\Test\Hspec\Core.o )
-[6 of 7] Compiling Test.Hspec       ( src\Test\Hspec.hs, dist\dist-sandbox-a6b56ea4\build\Test\Hspec.o )
-[7 of 7] Compiling Test.Hspec.QuickCheck ( src\Test\Hspec\QuickCheck.hs, dist\dist-sandbox-a6b56ea4\build\Test\Hspec\QuickCheck.o )
+ojects\natural-deduction\.cabal-sandbox\x86_64-windows-ghc-7.8.3\hspec-2.2.0
+est\Hspec\HUnit.hs, dist\dist-sandbox-8993f234\build\Test\Hspec\HUnit.o )
+[2 of 7] Compiling Test.Hspec.Formatters ( src\Test\Hspec\Formatters.hs, dist\dist-sandbox-8993f234\build\Test\Hspec\Formatters.o )
+[3 of 7] Compiling Test.Hspec.Discover ( src\Test\Hspec\Discover.hs, dist\dist-sandbox-8993f234\build\Test\Hspec\Discover.o )
+[4 of 7] Compiling Test.Hspec.Runner ( src\Test\Hspec\Runner.hs, dist\dist-sandbox-8993f234\build\Test\Hspec\Runner.o )
+[5 of 7] Compiling Test.Hspec.Core  ( src\Test\Hspec\Core.hs, dist\dist-sandbox-8993f234\build\Test\Hspec\Core.o )
+[6 of 7] Compiling Test.Hspec       ( src\Test\Hspec.hs, dist\dist-sandbox-8993f234\build\Test\Hspec.o )
+[7 of 7] Compiling Test.Hspec.QuickCheck ( src\Test\Hspec\QuickCheck.hs, dist\dist-sandbox-8993f234\build\Test\Hspec\QuickCheck.o )
 In-place registering hspec-2.2.0...

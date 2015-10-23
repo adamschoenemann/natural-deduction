@@ -1,8 +1,8 @@
 Registering hspec-discover-2.2.0...
-tural-induction\.cabal-sandbox\x86_64-windows-ghc-7.8.3\hspec-discover-2.2.0
-Installing executable(s) in F:\Projects\natural-induction\.cabal-sandbox\bin
+tural-deduction\.cabal-sandbox\x86_64-windows-ghc-7.8.3\hspec-discover-2.2.0
+Installing executable(s) in F:\Projects\natural-deduction\.cabal-sandbox\bin
 ...
-[1 of 3] Compiling Config           ( src\Config.hs, dist\dist-sandbox-a6b56ea4\build\hspec-discover\hspec-discover-tmp\Config.o )
-[2 of 3] Compiling Run              ( src\Run.hs, dist\dist-sandbox-a6b56ea4\build\hspec-discover\hspec-discover-tmp\Run.o )
-[3 of 3] Compiling Main             ( src\Main.hs, dist\dist-sandbox-a6b56ea4\build\hspec-discover\hspec-discover-tmp\Main.o )
-Linking dist/dist-sandbox-a6b56ea4\build\hspec-discover\hspec-discover.exe ...
+[1 of 3] Compiling Config           ( src\Config.hs, dist\dist-sandbox-8993f234\build\hspec-discover\hspec-discover-tmp\Config.o )
+[2 of 3] Compiling Run              ( src\Run.hs, dist\dist-sandbox-8993f234\build\hspec-discover\hspec-discover-tmp\Run.o )
+[3 of 3] Compiling Main             ( src\Main.hs, dist\dist-sandbox-8993f234\build\hspec-discover\hspec-discover-tmp\Main.o )
+Linking dist/dist-sandbox-8993f234\build\hspec-discover\hspec-discover.exe ...

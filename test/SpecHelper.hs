@@ -1,9 +1,9 @@
 module SpecHelper
     ( module Test.Hspec
     , module TruthTable
-    , module NaturalInduction.Proof
+    , module NaturalDeduction.Proof
     ) where
 
 import Test.Hspec
 import TruthTable
-import NaturalInduction.Proof
+import NaturalDeduction.Proof
