@@ -14,6 +14,14 @@ data Proof
     | AndI (Proof, Proof) WFF
     | AndEL Proof WFF
     | AndER Proof WFF
+    | OrIL  Proof WFF
+    | OrIR  Proof WFF
+    | OrE   (Proof, Proof, Proof) WFF
+    | ImplI Proof WFF
+    | ImplE (Proof, Proof) WFF
+    | ID Proof WFF
+    | CTR Proof WFF
+    | RAA Proof WFF
 
 type CheckProofResult = Either String WFF
 
@@ -41,8 +49,63 @@ checkProof t p =
         AndER a c -> do
             a' <- checkProof t a
             case a' of
-                (And _ r) -> if c == r then return c else throwError $ "AndER " ++ (show a') ++ " does not prove " ++ show c
+                (And _ r) -> if c == r
+                             then return c
+                             else throwError $ "AndER " ++ (show a') ++ " does not prove " ++ show c
                 _         -> throwError $ show a' ++ " is not a valid assumption for AndER"
+        OrIL a c -> do
+            a' <- checkProof t a
+            case c of
+                a'' `Or` _ -> if a' == a''
+                              then return c
+                              else throwError $ "OrIL " ++ show a' ++ " does not prove " ++ show c
+                _          -> throwError $ show a' ++ " is not a valid assumption for OrIL"
+
+        OrIR a c -> do
+            a' <- checkProof t a
+            case c of
+                _ `Or` a'' -> if a' == a''
+                              then return c
+                              else throwError $ "OrIL " ++ show a' ++ " does not prove " ++ show c
+                _          -> throwError $ show c ++ " is not a valid assumption for OrIR"
+        OrE (a1, a2, a3) c -> do
+            (l `Or` r) <- checkProof t a1
+            a2' <- checkProof (Theorem [l] c) a2
+            a3' <- checkProof (Theorem [r] c) a3
+            return c
+
+        ImplI a c ->
+            case c of
+                (i `Impl` j) -> checkProof (Theorem [i] j) a >> (return c)
+                _            -> throwError $
+                    show c ++ " is not a valid conclusion for ImplI"
+
+        ImplE (a, a2) c -> do
+            a'  <- checkProof t a
+            a2' <- checkProof t a2
+            case a2' of
+                (a'' `Impl` c')
+                    | c'  /= c  -> throwError $ show c'  ++ " should be " ++ show c
+                    | a'' /= a' -> throwError $ show a'' ++ " should be " ++ show a'
+                    | otherwise -> return c
+                _   -> throwError $ show a2' ++ " is not a valid assumption for ImplE"
+
+        ID a c -> do
+            a' <- checkProof t a
+            if a' == c
+                then return c
+                else throwError $ show a' ++ " must be equal to " ++ show c
+
+        CTR a c -> do
+            a' <- checkProof t a
+            case a' of
+                (Const False) -> return c
+                _             -> throwError $ "False must be assumed in CTR"
+
+        RAA a c -> do
+            checkProof (Theorem [(Const False) --> c] (Const False)) a
+            return c
+
 
     where asmpts = assumptions t
           assumed x  = x `elem` asmpts
