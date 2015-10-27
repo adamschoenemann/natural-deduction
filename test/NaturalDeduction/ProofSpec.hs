@@ -45,10 +45,8 @@ spec = do
             let t  = Theorem [_P] (_P \/ _Q)
                 p1 = OrIL (Assume _P) (_P \/ _Q)
                 p2 = OrIL (Assume _P) (_Q \/ _P)
-                p3 = OrIL (Assume _P) (_P /\ _Q)
             checkProof t p1 `shouldBe` Right (_P \/ _Q)
             checkProof t p2 `shouldBe` Left ("OrIL P does not prove (Q \\/ P)")
-            checkProof t p3 `shouldBe` Left ("P is not a valid assumption for OrIL")
 
         it "checks OrIR correctly" $ do
             let t  = Theorem [_P] (_P \/ _Q)
@@ -56,7 +54,7 @@ spec = do
                 p2 = OrIR (Assume _P) (_P \/ _Q)
                 p3 = OrIR (Assume _P) (_P \/ _Q)
             checkProof t p1 `shouldBe` Right (_Q \/ _P)
-            checkProof t p2 `shouldBe` Left ("OrIL P does not prove (P \\/ Q)")
+            checkProof t p2 `shouldBe` Left ("OrIR P does not prove (P \\/ Q)")
 
         it "checks OrE correctly" $ do
             let a = (_P /\ _Q) \/ (_P /\ _R)
@@ -142,8 +140,12 @@ spec = do
 
         -- Proof double negation (\lnot (\lnot _Q) |- _Q)
         it "checks RAA correctly" $ do
-            let t  = Theorem [(_Q --> false) --> false)] _Q
-                p1 = RAA (ImplE (Assume $ _Q --> false))
+            let t  = Theorem [(_Q --> false) --> false] _Q
+                p1 = RAA (ImplE (Assume $ _Q --> false, Assume $ (_Q --> false) --> false)
+                                false)
+                         _Q
+
+            checkProof t p1 `shouldBe` Right _Q
 
 
 

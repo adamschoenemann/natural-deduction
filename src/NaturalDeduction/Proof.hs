@@ -1,8 +1,8 @@
-module NaturalDeduction.Proof where
+module NaturalDeduction.Proof (
+    printProof, checkProof, Proof(..), Theorem(..)
+) where
 
 import TruthTable
-import Data.Either
-import Data.String (unwords)
 import Control.Monad.Error
 
 data Theorem =
@@ -66,12 +66,12 @@ checkProof t p =
             case c of
                 _ `Or` a'' -> if a' == a''
                               then return c
-                              else throwError $ "OrIL " ++ show a' ++ " does not prove " ++ show c
+                              else throwError $ "OrIR " ++ show a' ++ " does not prove " ++ show c
                 _          -> throwError $ show c ++ " is not a valid assumption for OrIR"
         OrE (a1, a2, a3) c -> do
             (l `Or` r) <- checkProof t a1
-            a2' <- checkProof (Theorem [l] c) a2
-            a3' <- checkProof (Theorem [r] c) a3
+            _ <- checkProof (Theorem [l] c) a2
+            _ <- checkProof (Theorem [r] c) a3
             return c
 
         ImplI a c ->
@@ -103,15 +103,17 @@ checkProof t p =
                 _             -> throwError $ "False must be assumed in CTR"
 
         RAA a c -> do
-            checkProof (Theorem [(Const False) --> c] (Const False)) a
-            return c
+            a' <- checkProof (Theorem (c --> (Const False) : asmpts) (Const False)) a
+            if a' == (Const False)
+                then return c
+                else throwError $ "RAA must have False as the assumption"
 
 
     where asmpts = assumptions t
           assumed x  = x `elem` asmpts
 
 -- Test stuff
-t1 :: Theorem
-t1 = Theorem [Var "P", Var "Q"] (Var "P" /\ Var "Q")
-
-p1 = AndI (Assume (Var "P"), Assume (Var "Z")) (Var "P" /\ Var "Q")
+-- t1 :: Theorem
+-- t1 = Theorem [Var "P", Var "Q"] (Var "P" /\ Var "Q")
+--
+-- p1 = AndI (Assume (Var "P"), Assume (Var "Z")) (Var "P" /\ Var "Q")
