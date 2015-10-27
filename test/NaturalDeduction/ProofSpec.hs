@@ -28,7 +28,7 @@ spec = do
                 p1 = Assume (_P)
                 p2 = Assume (_Q)
             checkProof t p1 `shouldBe` (Right (_P))
-            checkProof t p2 `shouldBe` Left (show (_Q) ++ " cannot be assumed")
+            checkProof t p2 `shouldBe` Left ("Q cannot be assumed. Valid assumptions are (P)")
 
         it "checks AndI correctly" $ do
             let t = Theorem [_P, _Q] (_P /\ _Q)
@@ -77,7 +77,7 @@ spec = do
                           , AndEL (Assume $ _P /\ _R) _P
                           ) _P
             checkProof t p1 `shouldBe` Right _P
-            checkProof t p2 `shouldBe` Left "(R /\\ Q) cannot be assumed"
+            checkProof t p2 `shouldBe` Left "(R /\\ Q) cannot be assumed. Valid assumptions are ((P /\\ Q),((P /\\ Q) \\/ (P /\\ R)))"
 
         it "checks ImplI correctly" $ do
             let c  = (_P /\ _Q) --> _Q
@@ -87,7 +87,7 @@ spec = do
                 p3 = (AndER (Assume $ _Q) _Q) `ImplI` c
             checkProof t p1 `shouldBe` Right c
             checkProof t p2 `shouldBe` Left "(P /\\ Q) is not a valid conclusion for ImplI"
-            checkProof t p3 `shouldBe` Left "Q cannot be assumed"
+            checkProof t p3 `shouldBe` Left "Q cannot be assumed. Valid assumptions are ((P /\\ Q))"
 
         it "checks ImplE correctly" $ do
             let c = _R
@@ -116,7 +116,7 @@ spec = do
                                                             c
 
             checkProof t p1 `shouldBe` Right c
-            checkProof t p2 `shouldBe` Left "((Q /\\ Q) --> R) cannot be assumed"
+            checkProof t p2 `shouldBe` Left "((Q /\\ Q) --> R) cannot be assumed. Valid assumptions are ((Q /\\ P),((P /\\ Q) --> R))"
 
         it "checks ID correctly" $ do
             let t = Theorem [_Q, _R] _Q
@@ -176,7 +176,7 @@ spec = do
 
             checkProof t p `shouldBe` Right (lnot $ lnot _A)
 
-        it "checks  A, A -> B, B -> C, C -> D   |-   D   correctly" $ do
+        it "checks A, A -> B, B -> C, C -> D   |-   D   correctly" $ do
             let t = Theorem [_A, _A --> _B, _B --> _C, _C --> _D] _D
                 p = (((Assume _A, Assume $ _A --> _B)
                     {--------------------------------} `ImplE`
@@ -188,7 +188,7 @@ spec = do
 
             checkProof t p  `shouldBe` Right _D
 
-        it "checks   A --> B  |-  -B --> -A   correctly" $ do
+        it "checks A --> B  |-  -B --> -A   correctly (contrapositive)" $ do
             let t = Theorem [_A --> _B] (lnot _A --> lnot _B)
                 p =
                     ((((Assume $ (_A --> false) --> false, Assume $ _A --> _B)
@@ -199,9 +199,9 @@ spec = do
                     {-----------------------------------------------------------------------------------------------} `ImplI`
                                                                 (_A --> false))
                     {-----------------------------------------------------------------------------------------------} `ImplI`
-                                                            (lnot _A --> lnot _B)
+                                                            (lnot _B --> lnot _A)
 
-            checkProof t p `shouldBe` Right (lnot _A --> lnot _B)
+            checkProof t p `shouldBe` Right (lnot _B --> lnot _A)
 
 
 

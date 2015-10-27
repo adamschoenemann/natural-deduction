@@ -1,0 +1,2196 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"destroy",
+				"destroyPost"
+			],
+			[
+				"Thred",
+				"ThreadPost"
+			],
+			[
+				"author",
+				"author_id"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"back",
+				"backup"
+			],
+			[
+				"stora",
+				"storage_path"
+			],
+			[
+				"storage",
+				"storage_path	(app.php)"
+			],
+			[
+				"mysql",
+				"mysqldump"
+			],
+			[
+				"fin",
+				"finally	(BackupDB.php)"
+			],
+			[
+				"Back",
+				"BackupDB"
+			],
+			[
+				"func",
+				"function"
+			],
+			[
+				"ba",
+				"backup"
+			],
+			[
+				"Ar",
+				"Artisan	(app.php)"
+			],
+			[
+				"foler",
+				"folderName"
+			],
+			[
+				"perfo",
+				"performed_by"
+			],
+			[
+				"exp",
+				"expect"
+			],
+			[
+				"perf",
+				"performed_by"
+			],
+			[
+				"print_r",
+				"print_r()	standard Function"
+			],
+			[
+				"Shi",
+				"ShiftOfferRecipient"
+			],
+			[
+				"ShiftO",
+				"ShiftOfferRecipient"
+			],
+			[
+				"ShiftT",
+				"ShiftTradingController"
+			],
+			[
+				"OFFE",
+				"OFFERED_TO_ALL	(ShiftTradingApiTest.php)"
+			],
+			[
+				"prf",
+				"prefix"
+			],
+			[
+				"json_en",
+				"json_encode()	json Function"
+			],
+			[
+				"update",
+				"updated_at"
+			],
+			[
+				"crea",
+				"created_at"
+			],
+			[
+				"shift_ac",
+				"shift_actions_new"
+			],
+			[
+				"shift_actions",
+				"shift_actions_new"
+			],
+			[
+				"Shift",
+				"ShiftAction	(ShiftController.php)"
+			],
+			[
+				"RETR",
+				"RETRACT_ALL_OFFERS	(ShiftAction.php)"
+			],
+			[
+				"RET",
+				"RETRACT_ALL_OFFERS"
+			],
+			[
+				"RETRA",
+				"RETRACT_ALL_OFFERS	(Shift.php)"
+			],
+			[
+				"retra",
+				"retractAllOffers"
+			],
+			[
+				"getSt",
+				"getStatusCode"
+			],
+			[
+				"off",
+				"offers"
+			],
+			[
+				"Ca",
+				"Carbon"
+			],
+			[
+				"OFF",
+				"OFFERED_TO_ALL	(Shift.php)"
+			],
+			[
+				"save",
+				"saveShiftOffer	(ShiftTradingController.php)"
+			],
+			[
+				"ac",
+				"action"
+			],
+			[
+				"OF",
+				"OFFERED_TO_ALL"
+			],
+			[
+				"acti",
+				"action"
+			],
+			[
+				"par",
+				"partition"
+			],
+			[
+				"act",
+				"actions"
+			],
+			[
+				"parti",
+				"partition"
+			],
+			[
+				"claimer",
+				"claimer_id"
+			],
+			[
+				"shift_",
+				"shift_id"
+			],
+			[
+				"null",
+				"null"
+			],
+			[
+				"attach",
+				"attachAction"
+			],
+			[
+				"Inv",
+				"InvalidArgumentException"
+			],
+			[
+				"offerC",
+				"offerRecipients"
+			],
+			[
+				"CLA",
+				"CLAIM	(Shift.php)"
+			],
+			[
+				"equa",
+				"equals(1"
+			],
+			[
+				"ShfitO",
+				"ShiftOfferController"
+			],
+			[
+				"emplo",
+				"employeeRole"
+			],
+			[
+				"Shif",
+				"ShiftAction"
+			],
+			[
+				"pari",
+				"partitions"
+			],
+			[
+				"origin",
+				"origin_domains"
+			],
+			[
+				"orig",
+				"origin_domains"
+			],
+			[
+				"do",
+				"domains"
+			],
+			[
+				"HTTP",
+				"HTTP_ORIGIN"
+			],
+			[
+				"dete",
+				"detector"
+			],
+			[
+				"taar",
+				"taarn-net"
+			],
+			[
+				"thro",
+				"throws"
+			],
+			[
+				"Inval",
+				"InvalidArgumentException"
+			],
+			[
+				"form",
+				"format"
+			],
+			[
+				"asser",
+				"assertBeginEnd"
+			],
+			[
+				"DATE",
+				"DATETIME_FORMAT"
+			],
+			[
+				"sub",
+				"subMinutes"
+			],
+			[
+				"shift_Type",
+				"shift_type_id"
+			],
+			[
+				"partitino",
+				"partitionWithShift"
+			],
+			[
+				"shift_typ",
+				"shift_type_id"
+			],
+			[
+				"shift_Typ",
+				"shift_type_id"
+			],
+			[
+				"Inva",
+				"InvalidBeginOrEnd"
+			],
+			[
+				"ShiftOf",
+				"ShiftOffer	(Shift.php)"
+			],
+			[
+				"shift_ty",
+				"shift_type_id"
+			],
+			[
+				"claime",
+				"claimer_id"
+			],
+			[
+				"offers",
+				"offersWithAll"
+			],
+			[
+				"Can",
+				"CannotClaimException"
+			],
+			[
+				"In",
+				"Input"
+			],
+			[
+				"MOD",
+				"MODIFY_USER"
+			],
+			[
+				"MODI",
+				"MODIFY_USER	(Shift.php)"
+			],
+			[
+				"retr",
+				"retractOffer"
+			],
+			[
+				"EMp",
+				"EMPLOYEE_PRIVILEDGE	(Role.php)"
+			],
+			[
+				"beg",
+				"begin"
+			],
+			[
+				"file_put",
+				"file_put_contents()	standard Function"
+			],
+			[
+				"dat",
+				"database"
+			],
+			[
+				"sav",
+				"saveShiftOffer"
+			],
+			[
+				"reci",
+				"recipients"
+			],
+			[
+				"offerI",
+				"offer_id"
+			],
+			[
+				"shift_of",
+				"shift_offer_id	(ShiftOfferController.php)"
+			],
+			[
+				"begin",
+				"beginTime"
+			],
+			[
+				"shift_o",
+				"shift_offers"
+			],
+			[
+				"Tarn",
+				"TaarnNetModel	(Shift.php)"
+			],
+			[
+				"shift_f",
+				"shift_offer_id"
+			],
+			[
+				"shift_offer_",
+				"shift_offer_recipients"
+			],
+			[
+				"drop",
+				"dropIfExists"
+			],
+			[
+				"shift_Of",
+				"shift_offers_old"
+			],
+			[
+				"shift_off",
+				"shift_offer_id"
+			],
+			[
+				"inc",
+				"increments"
+			],
+			[
+				"shift_ff",
+				"shift_offer_id"
+			],
+			[
+				"timest",
+				"timestamps	(Shift.php)"
+			],
+			[
+				"where",
+				"whereNot"
+			],
+			[
+				"insertTE",
+				"insertTestTypes	(DatabaseSeeder.php)"
+			],
+			[
+				"shift_type",
+				"shift_type_id	(e2e.php)"
+			],
+			[
+				"ex",
+				"extends	(UserController.php)"
+			],
+			[
+				"stristr",
+				"stristr()	standard Function"
+			],
+			[
+				"stripo",
+				"stripos()	standard Function"
+			],
+			[
+				"Us",
+				"User"
+			],
+			[
+				"getA",
+				"getAvailable"
+			],
+			[
+				"Ap",
+				"App::environment	(routes.php)"
+			],
+			[
+				"shiftS",
+				"setUpShifts"
+			],
+			[
+				"insertShi",
+				"insertShifts"
+			],
+			[
+				"N_SH",
+				"N_SHIFT_COLS"
+			],
+			[
+				"sizeof",
+				"sizeof()	standard Function"
+			],
+			[
+				"uns",
+				"unset"
+			],
+			[
+				"start",
+				"startEvent"
+			],
+			[
+				"User",
+				"UserTableSeeder"
+			],
+			[
+				"En",
+				"EnvironmentDetector	(Application.php)"
+			],
+			[
+				"ENvi",
+				"EnvironmentDetector	(Application.php)"
+			],
+			[
+				"prv",
+				"private	(PageAPITest.php)"
+			],
+			[
+				"PageCa",
+				"PageCategoryTableSeeder	(PageCategoryTableSeeder.php)"
+			],
+			[
+				"insertTes",
+				"insertTestCategories	(PageAPITest.php)"
+			],
+			[
+				"insertT",
+				"insertTestHolidays	(HolidayTableSeeder.php)"
+			],
+			[
+				"Hol",
+				"HolidayTableSeeder	(HolidayTableSeeder.php)"
+			],
+			[
+				"comm",
+				"comment"
+			],
+			[
+				"insert",
+				"insertTestTemplates"
+			],
+			[
+				"insertTe",
+				"insertTestTypes	(DatabaseSeeder.php)"
+			],
+			[
+				"function_exi",
+				"function_exists()	Core Function"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "clos",
+		"selected_items":
+		[
+			[
+				"clos",
+				"File: Close All"
+			],
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"favo",
+				"Favorite Files: Open File(s)"
+			],
+			[
+				"math",
+				"UnicodeMath: Insert"
+			],
+			[
+				"ali",
+				"Align cursor"
+			],
+			[
+				"ren",
+				"File: Rename"
+			],
+			[
+				"fav",
+				"Favorite Files: Open File(s)"
+			],
+			[
+				"new",
+				"File: New File Relative to Current View"
+			],
+			[
+				"space",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"spac",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"spa",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"lint",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"linter set",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"instl",
+				"Package Control: Install Package"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"diff",
+				"FileDiffs: Menu"
+			],
+			[
+				"dupl",
+				"File: Duplicate"
+			],
+			[
+				"move",
+				"File: Move"
+			],
+			[
+				"mi",
+				"View: Toggle Minimap"
+			],
+			[
+				"min",
+				"View: Toggle Minimap"
+			],
+			[
+				"mini",
+				"View: Toggle Minimap"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"wra",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"c++",
+				"Set Syntax: C++"
+			],
+			[
+				"ind",
+				"Indent JSON"
+			],
+			[
+				"cl",
+				"File: Close All"
+			],
+			[
+				"markd",
+				"Set Syntax: Markdown"
+			],
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"wap",
+				"SublimeLinter: Make Warnings Passive"
+			],
+			[
+				"clo",
+				"File: Close All"
+			],
+			[
+				"sur",
+				"Surround: change surround"
+			],
+			[
+				"surr",
+				"Surround: change surround"
+			],
+			[
+				"hex",
+				"Hex Viewer: Toggle Hex View"
+			],
+			[
+				"Babe",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"babel",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"setting",
+				"Preferences: Settings - User"
+			],
+			[
+				"Subli",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"sublimelinter sett",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"log",
+				"Set Syntax: LaTeX Log"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"new fi",
+				"File: New File Relative to Current View"
+			],
+			[
+				"prefe",
+				"Preferences: Settings - User"
+			],
+			[
+				"p",
+				"Preferences: Settings - User"
+			],
+			[
+				"match",
+				"BracketHighlighter: Match Brackets (ignore threshold)"
+			],
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reac",
+				"LaTeXTools: Reconfigure and migrate settings"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"dif",
+				"FileDiffs: Menu"
+			],
+			[
+				"swa",
+				"BracketHighlighter: Swap Brackets"
+			],
+			[
+				"brack",
+				"BracketHighlighter: Swap Brackets"
+			],
+			[
+				"blad",
+				"Set Syntax: PHP - Laravel Blade"
+			],
+			[
+				"add",
+				"Project: Add Folder"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"inden",
+				"IndentX: Indent"
+			],
+			[
+				"inde",
+				"IndentX: Indent"
+			],
+			[
+				"brows",
+				"File: Open In Browser - Testing Server"
+			],
+			[
+				"prei",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"previ",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"pre",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sapce",
+				"Table Editor: Disable 'keep_space_left' for current view"
+			],
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"json",
+				"Indent JSON"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"user",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"markdo",
+				"Set Syntax: Markdown"
+			],
+			[
+				"c",
+				"Set Syntax: C"
+			],
+			[
+				"make",
+				"Set Syntax: Makefile"
+			],
+			[
+				"mov",
+				"File: Move"
+			],
+			[
+				"nre",
+				"File: New File Relative to Current View"
+			],
+			[
+				"NEW",
+				"File: New File Relative to Current View"
+			],
+			[
+				"syntax ha",
+				"Set Syntax: Haxe"
+			],
+			[
+				"browser",
+				"File: Open In Browser - Testing Server"
+			],
+			[
+				"open",
+				"Favorite Files: Open File(s)"
+			],
+			[
+				"",
+				"Bookmarks: Select Next"
+			],
+			[
+				"conv",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"conver",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"wrao",
+				"Word Wrap: Toggle"
+			],
+			[
+				"rea",
+				"FTPSync: Open README (Github)"
+			],
+			[
+				"late",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"align",
+				"Align cursor"
+			],
+			[
+				"led",
+				"Set Syntax: Ledger"
+			],
+			[
+				"ledg",
+				"Set Syntax: Ledger"
+			],
+			[
+				"swap",
+				"BracketHighlighter: Swap Brackets"
+			],
+			[
+				"bra",
+				"BracketHighlighter: Swap Brackets"
+			],
+			[
+				"brow",
+				"File: Open In Browser - Testing Server"
+			],
+			[
+				"run",
+				"AutoHotkey - Run"
+			],
+			[
+				"autoho",
+				"Set Syntax: AutoHotkey"
+			],
+			[
+				"preview",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"defau",
+				"Preferences: Settings - Default"
+			],
+			[
+				"chea",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"inser",
+				"Insert File Directory"
+			],
+			[
+				"file",
+				"File: Copy Path as URI"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"c#",
+				"Set Syntax: C#"
+			],
+			[
+				"lis",
+				"Package Control: List Packages"
+			],
+			[
+				"renam",
+				"File: Rename"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"new ",
+				"File: New File Relative to Current View"
+			],
+			[
+				"projec",
+				"Project: Edit"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"shad",
+				"Set Syntax: Unity Shader"
+			],
+			[
+				"hlsl",
+				"Set Syntax: High Level SL"
+			],
+			[
+				"glsl",
+				"Set Syntax: OpenGL SL"
+			],
+			[
+				"cg",
+				"Set Syntax: Cg"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"latex",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"highv",
+				"BracketHighlighter: Toggle High Visibility Mode"
+			],
+			[
+				"high v",
+				"BracketHighlighter: Toggle High Visibility Mode"
+			],
+			[
+				"alig",
+				"Align cursor"
+			],
+			[
+				"def",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"conve",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"comment",
+				"Toggle Block Comment"
+			],
+			[
+				"ke",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"bib",
+				"Set Syntax: BibTeX"
+			],
+			[
+				"syntax ba",
+				"Set Syntax: Batch File"
+			],
+			[
+				"shader",
+				"Set Syntax: Unity Shader"
+			]
+		],
+		"width": 544.0
+	},
+	"console":
+	{
+		"height": 311.0,
+		"history":
+		[
+			"import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"sublime.file",
+			"sublime.current",
+			"sublime.set_clipboard(\"hey\")",
+			"sublime.view",
+			"sublime",
+			"self.view",
+			"self",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/F/Projects/natural-deduction"
+	],
+	"file_history":
+	[
+		"/F/Projects/taarn-net/app/tests/VoteAPITest.php",
+		"/F/Projects/taarn-net/app/tests/VoteAnswerTest.php",
+		"/F/Projects/taarn-net/app/controllers/LoginController.php",
+		"/F/Projects/taarn-net/app/controllers/VoteAnswerController.php",
+		"/F/Projects/taarn-net/app/controllers/DashboardController.php",
+		"/F/Projects/taarn-net/app/commands/BackupDB.php",
+		"/F/Projects/taarn-net/app/routes.php",
+		"/F/Projects/taarn-net/app/database/migrations/2015_10_05_111534_softdelete_thread_posts.php",
+		"/F/Projects/taarn-net/app/models/ThreadPost.php",
+		"/F/Projects/taarn-net/app/controllers/ForumController.php",
+		"/F/Projects/taarn-net/app/controllers/BaseController.php",
+		"/F/Projects/taarn-net/app/tests/ThreadAPITest.php",
+		"/F/Projects/taarn-net/app/models/User.php",
+		"/F/Projects/taarn-net/app/lang/da/common.php",
+		"/F/Projects/taarn-net/app/config/app.php",
+		"/F/Projects/taarn-net/app/start/global.php",
+		"/F/Projects/taarn-net/app/views/login.blade.php",
+		"/F/Projects/taarn-net/app/storage/logs/backend-2015-10-05.log",
+		"/F/Projects/taarn-net/app/config/local/database.php",
+		"/F/Projects/taarn-net/app/utils/Maintenance.php",
+		"/F/Projects/taarn-net/app/start/artisan.php",
+		"/F/Projects/taarn-net/app/storage/logs/laravel.log",
+		"/F/Projects/taarn-net/app/config/backup-manager.php",
+		"/F/Projects/taarn-net/composer.json",
+		"/F/Dropbox/Programs/bin/setup-env.ps1",
+		"/F/Projects/taarn-net/app/tests/DatabaseTestCase.php",
+		"/F/Projects/taarn-net/app/tests/ShiftTradingApiTest.php",
+		"/F/Projects/taarn-net/app/tests/TestCase.php",
+		"/F/Projects/taarn-net/app/tests/ShiftModelTest.php",
+		"/F/Projects/taarn-net/app/models/Shift/Shift.php",
+		"/F/Projects/taarn-net/app/filters.php",
+		"/F/Projects/taarn-net/app/controllers/ShiftController.php",
+		"/F/Projects/taarn-net/app/tests/ShiftActionTest.php",
+		"/F/Projects/taarn-net/app/models/Shift/ShiftAction.php",
+		"/F/Projects/taarn-net/bootstrap/start.php",
+		"/F/Dropbox/Programs/vim/_vimrc",
+		"/F/Projects/taarn-net/app/controllers/ShiftTradingController.php",
+		"/F/Projects/taarn-net/app/views/index.blade.php",
+		"/F/Projects/taarn-net/app/models/Shift/ShiftOffer.php",
+		"/F/Projects/taarn-net/app/database/seeds/RoleTableSeeder.php",
+		"/F/Projects/taarn-net/vendor/laravel/framework/src/Illuminate/Foundation/Testing/ApplicationTrait.php",
+		"/F/Projects/taarn-net/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php",
+		"/F/Projects/taarn-net/app/database/migrations/2014_11_15_124508_add_positions_shifts_and_roles.php",
+		"/F/Projects/taarn-net/app/database/migrations/2015_09_18_163443_remove_shift_action_type_enum.php",
+		"/F/Projects/taarn-net/app/config/constants.php",
+		"/F/Projects/taarn-net/app/tests/ShiftApiTest.php",
+		"/F/Dropbox/Programs/SublimeText/Data/Packages/User/SublimeLinter.sublime-settings",
+		"/F/Projects/taarn-net/app/database/seeds/UserTableSeeder.php",
+		"/F/Projects/taarn-net/app/models/Role.php",
+		"/F/Projects/taarn-net/app/tests/UtilsTest.php",
+		"/F/tmp/tmp.php",
+		"/F/Projects/taarn-net/app/controllers/ShiftOfferController.php",
+		"/F/Projects/taarn-net/app/tests/ShiftOfferApiTest.php",
+		"/F/Projects/taarn-net/.gitignore",
+		"/F/Projects/taarn-net/app/controllers/VoteController.php",
+		"/F/Projects/taarn-net/app/database/migrations/2015_09_11_114253_migrate_offers_schema.php",
+		"/F/Projects/taarn-net/app/tests/RouteProtectionTest.php",
+		"/F/Projects/taarn-net/app/config/frontend.php",
+		"/F/Projects/taarn-net/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php",
+		"/F/Projects/taarn-net/app/config/e2e/database.php",
+		"/F/Projects/taarn-net/app/config/e2e/session.php",
+		"/F/Projects/taarn-net/app/config/database.example.php",
+		"/F/Projects/taarn-net/app/models/abstract/TaarnNetModel.php",
+		"/F/Projects/taarn-net/app/controllers/UserController.php",
+		"/F/Projects/taarn-net/app/start/e2e.php",
+		"/F/Projects/taarn-net/app/models/Shift/ShiftOfferRecipient.php",
+		"/F/Projects/taarn-net/app/database/seeds/DatabaseSeeder.php",
+		"/F/Projects/taarn-net/app/database/seeds/WageTableSeeder.php",
+		"/F/Projects/taarn-net/app/controllers/WageController.php",
+		"/F/Projects/taarn-net/app/controllers/ShiftTemplateController.php",
+		"/F/Projects/taarn-net/app/controllers/PageController.php",
+		"/F/Projects/taarn-net/app/controllers/ImageController.php",
+		"/F/Projects/taarn-net/app/controllers/HolidayController.php",
+		"/F/Projects/taarn-net/frontend/node_modules/validatorjs/src/lang/en.js",
+		"/F/Projects/taarn-net/app/config/validation.php",
+		"/F/Projects/taarn-net/app/database/seeds/PageTableSeeder.php",
+		"/F/Dropbox/xampp/apache/logs/error.log",
+		"/F/Projects/taarn-net/app/database/seeds/ShiftTableSeeder.php",
+		"/F/Dropbox/xampp/apache/logs/access.log",
+		"/F/Projects/taarn-net/app/tests/abstract/ReadCSVTrait.php",
+		"/F/Projects/taarn-net/app/database/seeds/PageCategoryTableSeeder.php",
+		"/F/Projects/taarn-net/app/models/Settings.php",
+		"/F/Projects/taarn-net/app/tests/fixtures/DashboardAPITest.php",
+		"/F/Projects/taarn-net/vendor/laravel/framework/src/Illuminate/Foundation/EnvironmentDetector.php",
+		"/F/Projects/taarn-net/vendor/laravel/framework/src/Illuminate/Foundation/Application.php",
+		"/F/Projects/taarn-net/app/config/local/app.php",
+		"/F/Projects/taarn-net/app/tests/PageAPITest.php",
+		"/F/Projects/taarn-net/app/database/seeds/HolidayTableSeeder.php",
+		"/F/Projects/taarn-net/app/tests/WageCalculatorTest.php",
+		"/F/Projects/taarn-net/app/tests/fixtures/wage/TestWageCalculationFixture.php",
+		"/F/Projects/taarn-net/app/tests/ImageTest.php",
+		"/F/Projects/taarn-net/app/database/seeds/ImageTableSeeder.php",
+		"/F/Projects/taarn-net/app/controllers/RoleController.php",
+		"/F/Projects/taarn-net/app/config/e2e/cache.php",
+		"/F/Projects/taarn-net/app/database/migrations/2015_08_25_132850_make_page_category_nullable.php",
+		"/F/Projects/taarn-net/app/config/e2e/images.php",
+		"/F/Projects/taarn-net/app/database/migrations/2015_07_30_145302_add_pages.php",
+		"/F/Projects/taarn-net/app/config/e2e/app.php",
+		"/F/Projects/taarn-net/app/tests/ShiftSplit/BaseShiftSplitTest.php",
+		"/F/Projects/taarn-net/app/tests/fixtures/UserAPITest.php",
+		"/F/Projects/taarn-net/app/controllers/ResourceController.php",
+		"/F/Projects/taarn-net/app/models/abstract/SelectableTrait.php",
+		"/F/Projects/taarn-net/app/tests/SelectableTraitTest.php",
+		"/F/Projects/taarn-net/app/tests/WageDayIntervalTest.php",
+		"/F/Projects/taarn-net/app/tests/HolidayTest.php",
+		"/F/Projects/taarn-net/app/models/Wage.php",
+		"/F/Projects/taarn-net/app/models/WageDayInterval.php",
+		"/F/Projects/taarn-net/app/utils/ShiftSplit/ShiftDaySplit.php",
+		"/F/Projects/taarn-net/app/utils/WageCalculator/WageCalculator.php",
+		"/F/Projects/taarn-net/app/controllers/WageCalculationController.php",
+		"/F/Dropbox/Projects/purescript/purescript-halogen/examples/counter/gulpfile.js",
+		"/F/Dropbox/Projects/purescript/try-halogen/index.html",
+		"/F/Dropbox/Projects/purescript/try-halogen/gulpfile.js",
+		"/F/Projects/taarn-net/download-db/main.js",
+		"/F/Projects/taarn-net/app/utils/ShiftSplit/ShiftIntervalSplit.php",
+		"/F/Projects/taarn-net/frontend/bower.json",
+		"/F/Projects/taarn-net/app/commands/ImportDB.php",
+		"/F/Projects/taarn-net/download-db/tables/DutyVersion.csv",
+		"/F/Projects/taarn-net/app/controllers/SalaryController.php",
+		"/F/Projects/taarn-net/app/tests/ShiftSplit/ShiftSplitTest.php",
+		"/F/Projects/taarn-net/app/tests/ShiftSplit/ShiftDaySplitTest.php",
+		"/F/Projects/taarn-net/app/utils/BeginEndTrait.php",
+		"/F/Projects/taarn-net/app/utils/ShiftSplit/ShiftSplit.php",
+		"/F/Projects/taarn-net/app/utils/ShiftSplit/BaseShiftSplit.php",
+		"/F/Projects/taarn-net/app/tests/abstract/WageFixtureTest.php",
+		"/F/Projects/taarn-net/app/tests/WageTest.php",
+		"/F/Projects/taarn-net/app/models/WageDay.php",
+		"/F/Projects/taarn-net/app/models/Holiday.php"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+			"",
+			"<open files>",
+			"F:\\Dropbox\\Programs\\arduino-1.0.5"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"$post",
+			"storage_path() . '/backup/'",
+			"=>",
+			"$newShift",
+			"$begin",
+			"$newShift",
+			"claimedShift",
+			"new",
+			"=>",
+			"null",
+			"getAvailable",
+			"->id",
+			"user",
+			"begin",
+			"list($offer)",
+			"$original",
+			"claimed",
+			"begin",
+			"actions",
+			"$actions[0]",
+			"notNull",
+			"[0]",
+			"expect(count($action))->equals(1);",
+			"$actions",
+			"endPartAction",
+			"$claimedShifts",
+			"claimedShifts",
+			"$this->id",
+			"begin",
+			"testClaim",
+			"->copy",
+			"http",
+			"$partitionWith",
+			"partitionWith",
+			"shift2",
+			"shifts",
+			") {",
+			"\\\\",
+			"end",
+			"begin",
+			"Minutes(",
+			"->partition",
+			"partition",
+			"ShiftOfferRecipient::truncate()",
+			"ShiftOfferRecipient",
+			"ShiftOfferRecipient::truncate()",
+			"end",
+			"too early",
+			"begin",
+			"$shift",
+			"$this",
+			"shift",
+			"$value",
+			"$user_id",
+			"begin",
+			"$begin",
+			"comment",
+			"equals",
+			"format",
+			"Time",
+			"table->time",
+			"specify",
+			"delte",
+			"Exception",
+			"begin",
+			"Inpute",
+			"$input",
+			"->",
+			"getResponse",
+			"begin",
+			"Log::debug",
+			"wage_id",
+			"Clockwork",
+			"DB::table('users')->insert(",
+			"Hash::make('password')",
+			"Carbon::now()",
+			"date(",
+			"role_id",
+			"User::create",
+			"startEvent",
+			"begin",
+			"imgs",
+			"static::$pageCSV",
+			"static::$catCSV",
+			"Page",
+			"Posts",
+			"ShiftType::create",
+			"$minDate",
+			"$user = ",
+			"Type",
+			"App::environment() !== 'testing'",
+			"});",
+			"test",
+			"$res = ",
+			"=>",
+			"begin",
+			"_id",
+			"this->calculateUser",
+			"$to);",
+			"new Carbon(",
+			"WageCalculationController",
+			"2015",
+			"copy()->endOfDay()",
+			"=> [",
+			"fixedInterval",
+			"default",
+			"$default",
+			"a thursday",
+			"'default'",
+			"'days' => [\n                        [",
+			"23:59:59",
+			"$",
+			"ShiftSplitter::splitAtDays($shift)",
+			"ShiftSplit",
+			"$intervals[",
+			"$interval = $wage->default->intervals[0]->fixTime($day);",
+			"new",
+			"$this->",
+			"$b",
+			"$a",
+			"($wd_id,",
+			"'wage_day_id'",
+			"start",
+			"'start'",
+			"]),",
+			"new WageDayInterval([",
+			"next",
+			"withDummies"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"filename",
+			"shift_type",
+			"href='\\1'>",
+			"/",
+			"\\n",
+			"\"",
+			"$1",
+			"",
+			"Finished",
+			"in",
+			"0.0f",
+			" ConstantDeltaSerie",
+			"ConstantDeltaSerie",
+			"<br/>\\n",
+			"<br/>\\",
+			"\",",
+			"-",
+			"5\\n",
+			"",
+			",",
+			"$1-",
+			"$1- ",
+			"- ",
+			"\\t - ",
+			"\\t -",
+			"- $1",
+			"\\t-",
+			"- ",
+			"ShepherdController",
+			"_NormalMap",
+			"_NormalMap_ST",
+			"_NormalMap",
+			"head",
+			"tail",
+			"IEdge",
+			"BNode<T>",
+			"T",
+			"println",
+			"T",
+			".",
+			"right",
+			"Right",
+			"Left",
+			"BNode",
+			",\n,",
+			",\n",
+			"",
+			"\\1",
+			"\n\\1",
+			"",
+			"empty",
+			"delete",
+			"_prev",
+			"_next",
+			"T"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.clang":
+	{
+		"height": 100.0
+	},
+	"output.exec":
+	{
+		"height": 174.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.haskell_sublime_load":
+	{
+		"height": 128.0
+	},
+	"output.hex_viewer_inspector":
+	{
+		"height": 104.0
+	},
+	"output.markdown":
+	{
+		"height": 98.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "natural-deduction.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"logincon",
+				"controllers\\LoginController.php"
+			],
+			[
+				"filte",
+				"filters.php"
+			],
+			[
+				"shifttra",
+				"controllers\\ShiftTradingController.php"
+			],
+			[
+				"loginc",
+				"controllers\\LoginController.php"
+			],
+			[
+				"voteapi",
+				"tests\\VoteAPITest.php"
+			],
+			[
+				"votete",
+				"tests\\VoteAnswerTest.php"
+			],
+			[
+				"vote",
+				"controllers\\VoteAnswerController.php"
+			],
+			[
+				"fou",
+				"controllers\\ForumController.php"
+			],
+			[
+				"basec",
+				"controllers\\BaseController.php"
+			],
+			[
+				"forum",
+				"controllers\\ForumController.php"
+			],
+			[
+				"thread",
+				"tests\\ThreadAPITest.php"
+			],
+			[
+				"u",
+				"models\\User.php"
+			],
+			[
+				"threadpo",
+				"models\\ThreadPost.php"
+			],
+			[
+				"softd",
+				"database\\migrations\\2015_10_05_111534_softdelete_thread_posts.php"
+			],
+			[
+				"routes",
+				"routes.php"
+			],
+			[
+				"backup",
+				"commands\\BackupDB.php"
+			],
+			[
+				"common",
+				"lang\\da\\common.php"
+			],
+			[
+				"user",
+				"models\\User.php"
+			],
+			[
+				"dashbo",
+				"controllers\\DashboardController.php"
+			],
+			[
+				"lara",
+				"storage\\logs\\laravel.log"
+			],
+			[
+				"login",
+				"views\\login.blade.php"
+			],
+			[
+				"arti",
+				"start\\artisan.php"
+			],
+			[
+				"start",
+				"start\\global.php"
+			],
+			[
+				"local/d",
+				"config\\local\\database.php"
+			],
+			[
+				"glob",
+				"start\\global.php"
+			],
+			[
+				"art",
+				"start\\artisan.php"
+			],
+			[
+				"databasetes",
+				"tests\\DatabaseTestCase.php"
+			],
+			[
+				"artisa",
+				"start\\artisan.php"
+			],
+			[
+				"bac",
+				"config\\backup-manager.php"
+			],
+			[
+				"config/app",
+				"config\\app.php"
+			],
+			[
+				"testc",
+				"tests\\TestCase.php"
+			],
+			[
+				"filt",
+				"filters.php"
+			],
+			[
+				"shiftcon",
+				"controllers\\ShiftController.php"
+			],
+			[
+				"shifttr",
+				"controllers\\ShiftTradingController.php"
+			],
+			[
+				"shift",
+				"models\\Shift\\Shift.php"
+			],
+			[
+				"shiftmodel",
+				"tests\\ShiftModelTest.php"
+			],
+			[
+				"shifttrain",
+				"controllers\\ShiftTradingController.php"
+			],
+			[
+				"shiftac",
+				"models\\Shift\\ShiftAction.php"
+			],
+			[
+				"shiftactiont",
+				"tests\\ShiftActionTest.php"
+			],
+			[
+				"local/datab",
+				"config\\local\\database.php"
+			],
+			[
+				"local/dat",
+				"config\\local\\database.php"
+			],
+			[
+				"databse",
+				"tests\\DatabaseTestCase.php"
+			],
+			[
+				"shiftmod",
+				"tests\\ShiftModelTest.php"
+			],
+			[
+				"shifta",
+				"models\\Shift\\ShiftAction.php"
+			],
+			[
+				"constants",
+				"config\\constants.php"
+			],
+			[
+				"add_shift",
+				"database\\migrations\\2014_11_15_124508_add_positions_shifts_and_roles.php"
+			],
+			[
+				"remove",
+				"database\\migrations\\2015_09_18_163443_remove_shift_type_enum.php"
+			],
+			[
+				"inde",
+				"views\\index.blade.php"
+			],
+			[
+				"action",
+				"models\\Shift\\ShiftAction.php"
+			],
+			[
+				"shiftoff",
+				"models\\Shift\\ShiftOffer.php"
+			],
+			[
+				"shiftapit",
+				"tests\\ShiftApiTest.php"
+			],
+			[
+				"use",
+				"models\\User.php"
+			],
+			[
+				"shiftof",
+				"models\\Shift\\ShiftOffer.php"
+			],
+			[
+				"rolet",
+				"database\\seeds\\RoleTableSeeder.php"
+			],
+			[
+				"shiftofferapi",
+				"tests\\ShiftOfferApiTest.php"
+			],
+			[
+				"roletal",
+				"database\\seeds\\RoleTableSeeder.php"
+			],
+			[
+				"role",
+				"models\\Role.php"
+			],
+			[
+				"usertal",
+				"database\\seeds\\UserTableSeeder.php"
+			],
+			[
+				"config/dat",
+				"config\\local\\database.php"
+			],
+			[
+				"shiftact",
+				"models\\Shift\\ShiftAction.php"
+			],
+			[
+				"shiftoffer",
+				"controllers\\ShiftOfferController.php"
+			],
+			[
+				"glo",
+				"start\\global.php"
+			],
+			[
+				"dash",
+				"controllers\\DashboardController.php"
+			],
+			[
+				"voteans",
+				"controllers\\VoteAnswerController.php"
+			],
+			[
+				"shiftofferc",
+				"controllers\\ShiftOfferController.php"
+			],
+			[
+				"shift.ph",
+				"models\\Shift\\Shift.php"
+			],
+			[
+				"votecon",
+				"controllers\\VoteController.php"
+			],
+			[
+				"routeprote",
+				"tests\\RouteProtectionTest.php"
+			],
+			[
+				"2015_mi",
+				"database\\migrations\\2015_09_11_114253_migrate_offers_schema.php"
+			],
+			[
+				"shiftoffera",
+				"tests\\ShiftOfferApiTest.php"
+			],
+			[
+				"front",
+				"config\\frontend.php"
+			],
+			[
+				"offerc",
+				"controllers\\ShiftOfferController.php"
+			],
+			[
+				"ind",
+				"views\\index.blade.php"
+			],
+			[
+				"lra",
+				"storage\\logs\\laravel.log"
+			],
+			[
+				"taa",
+				"models\\abstract\\TaarnNetModel.php"
+			],
+			[
+				"e2e",
+				"start\\e2e.php"
+			],
+			[
+				"shifttest",
+				"tests\\ShiftModelTest.php"
+			],
+			[
+				"shifto",
+				"models\\Shift\\ShiftOffer.php"
+			],
+			[
+				"offer_m",
+				"database\\migrations\\2015_09_11_114253_migrate_offers_schema.php"
+			],
+			[
+				"shiftco",
+				"controllers\\ShiftController.php"
+			],
+			[
+				"add_",
+				"database\\migrations\\2014_11_15_124508_add_positions_shifts_and_roles.php"
+			],
+			[
+				"offers_sch",
+				"database\\migrations\\2015_09_11_114253_migrate_offers_schema.php"
+			],
+			[
+				"databsete",
+				"tests\\DatabaseTestCase.php"
+			],
+			[
+				"userta",
+				"database\\seeds\\UserTableSeeder.php"
+			],
+			[
+				"databasesee",
+				"database\\seeds\\DatabaseSeeder.php"
+			],
+			[
+				"databasete",
+				"tests\\DatabaseTestCase.php"
+			],
+			[
+				"base",
+				"controllers\\BaseController.php"
+			],
+			[
+				"filters",
+				"filters.php"
+			],
+			[
+				"wageta",
+				"database\\seeds\\WageTableSeeder.php"
+			],
+			[
+				"wagec",
+				"controllers\\WageController.php"
+			],
+			[
+				"shifttempl",
+				"controllers\\ShiftTemplateController.php"
+			],
+			[
+				"page",
+				"controllers\\PageController.php"
+			],
+			[
+				"imagec",
+				"controllers\\ImageController.php"
+			],
+			[
+				"holi",
+				"controllers\\HolidayController.php"
+			],
+			[
+				"forumc",
+				"controllers\\ForumController.php"
+			],
+			[
+				"dashb",
+				"controllers\\DashboardController.php"
+			],
+			[
+				"filter",
+				"filters.php"
+			],
+			[
+				"cmmon",
+				"lang\\da\\common.php"
+			],
+			[
+				"vali",
+				"config\\validation.php"
+			],
+			[
+				"co",
+				"lang\\da\\common.php"
+			],
+			[
+				"databasese",
+				"database\\seeds\\DatabaseSeeder.php"
+			],
+			[
+				"usr",
+				"models\\User.php"
+			],
+			[
+				"shifttable",
+				"database\\seeds\\ShiftTableSeeder.php"
+			],
+			[
+				"pageta",
+				"database\\seeds\\PageTableSeeder.php"
+			],
+			[
+				"rou",
+				"routes.php"
+			],
+			[
+				"usertb",
+				"database\\seeds\\UserTableSeeder.php"
+			],
+			[
+				"set",
+				"models\\Settings.php"
+			],
+			[
+				"dashboar",
+				"tests\\fixtures\\DashboardAPITest.php"
+			],
+			[
+				"config/l",
+				"config\\local\\app.php"
+			],
+			[
+				"pagepi",
+				"tests\\PageAPITest.php"
+			],
+			[
+				"pagetal",
+				"database\\seeds\\PageTableSeeder.php"
+			],
+			[
+				"csv",
+				"tests\\abstract\\ReadCSVTrait.php"
+			],
+			[
+				"pageap",
+				"tests\\PageAPITest.php"
+			],
+			[
+				"holidaytal",
+				"database\\seeds\\HolidayTableSeeder.php"
+			],
+			[
+				"testwage",
+				"tests\\fixtures\\wage\\TestWageCalculationFixture.php"
+			],
+			[
+				"wagecacl",
+				"tests\\WageCalculatorTest.php"
+			],
+			[
+				"wagetal",
+				"database\\seeds\\WageTableSeeder.php"
+			],
+			[
+				"shifttalb",
+				"database\\seeds\\ShiftTableSeeder.php"
+			],
+			[
+				"imagetes",
+				"tests\\ImageTest.php"
+			],
+			[
+				"usertabl",
+				"database\\seeds\\UserTableSeeder.php"
+			],
+			[
+				"imaget",
+				"database\\seeds\\ImageTableSeeder.php"
+			],
+			[
+				"databasetest",
+				"tests\\DatabaseTestCase.php"
+			],
+			[
+				"databsese",
+				"database\\seeds\\DatabaseSeeder.php"
+			],
+			[
+				"2015",
+				"database\\migrations\\2015_07_30_145302_add_pages.php"
+			],
+			[
+				"databsetes",
+				"tests\\DatabaseTestCase.php"
+			],
+			[
+				"login.bl",
+				"views\\login.blade.php"
+			],
+			[
+				"wagecon",
+				"controllers\\WageController.php"
+			],
+			[
+				"rolecon",
+				"controllers\\RoleController.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"dmu",
+				"F:\\Dropbox\\Projects\\dmuac\\dmuac.sublime-project"
+			],
+			[
+				"gene",
+				"F:\\Dropbox\\Settings\\general.sublime-project"
+			],
+			[
+				"btp",
+				"F:\\Dropbox\\BTP\\BTP Regnskab\\2014\\btp_accounting.sublime-project"
+			],
+			[
+				"gen",
+				"F:\\Dropbox\\Settings\\general.sublime-project"
+			],
+			[
+				"ge",
+				"F:\\Dropbox\\Settings\\general.sublime-project"
+			],
+			[
+				"fro",
+				"F:\\Projects\\taarn-net\\frontend\\taarn-net-frontend.sublime-project"
+			],
+			[
+				"",
+				"F:\\Projects\\taarn-net\\taarn-net-backend.sublime-project"
+			],
+			[
+				"fron",
+				"F:\\Projects\\taarn-net\\taarn-net-frontend.sublime-project"
+			],
+			[
+				"back",
+				"F:\\Projects\\taarn-net\\taarn-net-backend.sublime-project"
+			],
+			[
+				"front",
+				"F:\\Projects\\taarn-net\\frontend\\taarn-net-frontend.sublime-project"
+			],
+			[
+				"gne",
+				"F:\\Dropbox\\Scripts\\general.sublime-project"
+			],
+			[
+				"btp ",
+				"F:\\Dropbox\\BTP\\BTP Regnskab\\2014\\btp_accounting.sublime-project"
+			],
+			[
+				"lara",
+				"F:\\Dropbox\\xampp\\htdocs\\taarn-net-laravel\\taarn-net-laravel.sublime-workspace"
+			],
+			[
+				"ta",
+				"F:\\Dropbox\\xampp\\htdocs\\taarn-net-laravel\\taarn-net-laravel.sublime-workspace"
+			],
+			[
+				"lar",
+				"F:\\Dropbox\\xampp\\htdocs\\taarn-net-laravel\\taarn-net-laravel.sublime-project"
+			],
+			[
+				"bt",
+				"F:\\Dropbox\\BTP\\BTP Regnskab\\2014\\btp_accounting.sublime-project"
+			],
+			[
+				"date",
+				"F:\\Dropbox\\Projects\\Haskell\\datestring\\datestring.sublime-project"
+			],
+			[
+				"taa",
+				"F:\\Dropbox\\xampp\\htdocs\\taarn-net\\taarn-net.sublime-project"
+			],
+			[
+				"hs",
+				"F:\\Dropbox\\Projects\\Haskell\\hs-time-tracker\\hs-time-tracker.sublime-project"
+			],
+			[
+				"btp_",
+				"F:\\Dropbox\\BTP\\BTP Regnskab\\2014\\btp_accounting.sublime-project"
+			],
+			[
+				"taar",
+				"F:\\Dropbox\\xampp\\htdocs\\taarn-net\\taarn-net.sublime-project"
+			],
+			[
+				"by",
+				"F:\\Dropbox\\xampp\\htdocs\\bythepatient\\bythepatient.sublime-project"
+			],
+			[
+				"med",
+				"F:\\Projects\\MED6\\group-repo\\med6group.sublime-project"
+			],
+			[
+				"naj",
+				"F:\\Dropbox\\xampp\\htdocs\\najas\\najas.sublime-project"
+			],
+			[
+				"n",
+				"F:\\Dropbox\\xampp\\htdocs\\najas\\najas.sublime-workspace"
+			],
+			[
+				"gall",
+				"F:\\Dropbox\\xampp\\htdocs\\gallery-admin\\gallery-admin.sublime-project"
+			],
+			[
+				"galler",
+				"/F/Dropbox/xampp/htdocs/gallery-admin/gallery-admin.sublime-project"
+			],
+			[
+				"byth",
+				"/F/Dropbox/xampp/htdocs/bythepatient/bythepatient.sublime-project"
+			],
+			[
+				"naja",
+				"/F/Dropbox/xampp/htdocs/najas/najas.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 33.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"GetNei",
+				"GetNeighbors"
+			],
+			[
+				"GetN",
+				"GetNeighbors"
+			],
+			[
+				"Ima",
+				"Image"
+			]
+		],
+		"width": 834.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"_vintageous_reset_during_init": true,
+		"vintage":
+		{
+			"_cmdline_cd": "F:\\Dropbox\\Programs\\SublimeText"
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 290.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
