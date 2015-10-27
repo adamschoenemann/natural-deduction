@@ -2,13 +2,23 @@ module NaturalDeduction.ProofSpec where
 
 import SpecHelper
 
+_A,_B,_C,_D :: WFF
+_A = Var "A"
+_B = Var "B"
+_C = Var "C"
+_D = Var "D"
+
 _P,_Q,_R :: WFF
 _P = Var "P"
 _Q = Var "Q"
 _R = Var "R"
 
-false :: WFF
+false, true :: WFF
 false = (Const False)
+true  = (Const True)
+
+lnot :: WFF -> WFF
+lnot w = w --> false
 
 spec :: Spec
 spec = do
@@ -52,7 +62,6 @@ spec = do
             let t  = Theorem [_P] (_P \/ _Q)
                 p1 = OrIR (Assume _P) (_Q \/ _P)
                 p2 = OrIR (Assume _P) (_P \/ _Q)
-                p3 = OrIR (Assume _P) (_P \/ _Q)
             checkProof t p1 `shouldBe` Right (_Q \/ _P)
             checkProof t p2 `shouldBe` Left ("OrIR P does not prove (P \\/ Q)")
 
@@ -147,7 +156,52 @@ spec = do
 
             checkProof t p1 `shouldBe` Right _Q
 
+        it "checks A /\\ -A |- False correctly" $ do
+            let a = _A /\ lnot _A
+                t = Theorem [a] false
+                p = ImplE ( AndEL (Assume a) _A
+                          , AndER (Assume a) (lnot _A)
+                          )
+                          false
 
+            checkProof t p `shouldBe` Right false
+
+        it "checks A |-  -(-A) correctly" $ do
+            let a = _A
+                t = Theorem [a] (lnot $ lnot _A)
+                p = ImplI (ImplE (Assume a, Assume $ lnot _A)
+                                 false
+                          )
+                          (lnot $ lnot _A)
+
+            checkProof t p `shouldBe` Right (lnot $ lnot _A)
+
+        it "checks  A, A -> B, B -> C, C -> D   |-   D   correctly" $ do
+            let t = Theorem [_A, _A --> _B, _B --> _C, _C --> _D] _D
+                p = (((Assume _A, Assume $ _A --> _B)
+                    {--------------------------------} `ImplE`
+                                  _B,                           Assume $ _B --> _C)
+                    {---------------------------------------------------------------} `ImplE`
+                                               _C,                                              Assume $ _C --> _D)
+                    {----------------------------------------------------------------------------------------------} `ImplE`
+                                                        _D
+
+            checkProof t p  `shouldBe` Right _D
+
+        it "checks   A --> B  |-  -B --> -A   correctly" $ do
+            let t = Theorem [_A --> _B] (lnot _A --> lnot _B)
+                p =
+                    ((((Assume $ (_A --> false) --> false, Assume $ _A --> _B)
+                    {----------------------------------------------------------} `ImplE`
+                        ((_B --> false) --> false),                                           Assume $ _B --> false)
+                    {-----------------------------------------------------------------------------------------------}`ImplE`
+                                                                    false)
+                    {-----------------------------------------------------------------------------------------------} `ImplI`
+                                                                (_A --> false))
+                    {-----------------------------------------------------------------------------------------------} `ImplI`
+                                                            (lnot _A --> lnot _B)
+
+            checkProof t p `shouldBe` Right (lnot _A --> lnot _B)
 
 
 

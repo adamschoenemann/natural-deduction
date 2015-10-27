@@ -3,6 +3,7 @@ module NaturalDeduction.Proof (
 ) where
 
 import TruthTable
+import Data.List (intercalate)
 import Control.Monad.Error
 
 data Theorem =
@@ -34,7 +35,8 @@ checkProof t p =
         Assume w ->
             if assumed w
                 then return w
-                else throwError $ (show w) ++ " cannot be assumed"
+                else throwError $ (show w) ++ " cannot be assumed. Valid assumptions are (" ++ a ++ ")"
+                     where a = intercalate "," (map show asmpts)
         AndI (a1, a2) c -> do
             a1' <- checkProof t a1
             a2' <- checkProof t a2
@@ -70,13 +72,13 @@ checkProof t p =
                 _          -> throwError $ show c ++ " is not a valid assumption for OrIR"
         OrE (a1, a2, a3) c -> do
             (l `Or` r) <- checkProof t a1
-            _ <- checkProof (Theorem [l] c) a2
-            _ <- checkProof (Theorem [r] c) a3
+            _ <- checkProof (Theorem (l:asmpts) c) a2
+            _ <- checkProof (Theorem (r:asmpts) c) a3
             return c
 
         ImplI a c ->
             case c of
-                (i `Impl` j) -> checkProof (Theorem [i] j) a >> (return c)
+                (i `Impl` j) -> checkProof (Theorem (i:asmpts) j) a >> (return c)
                 _            -> throwError $
                     show c ++ " is not a valid conclusion for ImplI"
 
