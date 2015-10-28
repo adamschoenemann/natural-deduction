@@ -50,7 +50,7 @@ data Proof
 ### Example 1
 ![T1](http://mathurl.com/pzq9dmo.png)
 
-Proof
+Proof  
 ![Eq1](http://mathurl.com/qxpd65u.png)
 
 Check
@@ -66,8 +66,7 @@ Check
 ### Example 2
 ![T2](http://mathurl.com/p2z84sk.png)
 
-Proof
-
+Proof  
 ![Eq2](http://mathurl.com/nwf84tq.png)
 
 Check
@@ -82,10 +81,10 @@ Check
 
 
 ### Example 3
+Slightly more complex  
 ![T3](http://mathurl.com/pdctnnc.png)  
-Slightly more complex
 
-Proof
+Proof  
 ![Eq3](http://mathurl.com/opwyaxd.png)
 
 [1]: http://github.com/adamschoenemann/truth-table
@@ -103,10 +102,10 @@ Check
 ```
 
 ### Example 4
-Even more complex
+Even more complex  
 ![T4](http://mathurl.com/nlzg97b.png)
 
-Proof
+Proof  
 ![Eq4](http://mathurl.com/o72owyf.png)
 
 
