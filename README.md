@@ -47,7 +47,7 @@ data Proof
 ```
 
 ## Examples
-### Theorem. $ P, Q \vdash P \wedge Q $
+### Example. $ P, Q \vdash P \wedge Q $
 
 Proof
 $$
@@ -66,7 +66,7 @@ Check
     checkProof t p2 -- Left "Could not prove (P /\\ R) from P Q"
 ```
 
-### Theorem. $ P \wedge Q \vdash P $
+### Example. $ P \wedge Q \vdash P $
 
 
 Proof
@@ -87,4 +87,65 @@ Check
     checkProof t p2 -- Left "AndEL (P /\\ Q) does not prove Q"
 ```
 
+
+### Example. $ A \vdash \lnot (\lnot A) $
+Slightly more complex
+
+Proof
+
+$$
+\dfrac{
+    \dfrac{
+        A \quad \boxed{A → \mathtt{False}}
+    }{\mathtt{False}} {\scriptstyle \{ →E \}}
+}{(A → \mathtt{False}) → \mathtt{False}} {\scriptstyle \{ →I \}}
+$$
 [1]: http://github.com/adamschoenemann/truth-table
+
+Check
+```haskell
+    let a = _A
+        t = Theorem [a] (lnot $ lnot _A)
+        p = ImplI (ImplE (Assume a, Assume $ lnot _A)
+                         false
+                  )
+                  (lnot $ lnot _A)
+
+    checkProof t p `shouldBe` Right (lnot $ lnot _A)
+```
+
+### Example. $ A, A → B, B → C, C → D $
+Even more complex
+
+
+Proof
+
+$$
+\dfrac{
+    \dfrac{
+        \dfrac{
+            A
+            \quad
+            A → B
+        }{B} {\scriptstyle \{ →E\} }
+        \quad
+        \dfrac{}{B → C}
+    }{C}                    {\scriptstyle \{ →E\} }
+    \quad
+    \dfrac{}{ C → D }
+}{D}    {\scriptstyle \{ →E\}}
+$$
+
+Check
+```haskell
+    let t = Theorem [_A, _A --> _B, _B --> _C, _C --> _D] _D
+        p = (((Assume _A, Assume $ _A --> _B)
+            {--------------------------------} `ImplE`
+                          _B,                           Assume $ _B --> _C)
+            {---------------------------------------------------------------} `ImplE`
+                                       _C,                                              Assume $ _C --> _D)
+            {----------------------------------------------------------------------------------------------} `ImplE`
+                                                _D
+
+    checkProof t p  `shouldBe` Right _D
+```

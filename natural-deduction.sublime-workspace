@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"as",
+				"assumptions"
+			],
+			[
+				"ass",
+				"assumptions	(Proof.hs)"
+			],
+			[
 				"destroy",
 				"destroyPost"
 			],
@@ -506,19 +514,35 @@
 			[
 				"insert",
 				"insertTestTemplates"
-			],
-			[
-				"insertTe",
-				"insertTestTypes	(DatabaseSeeder.php)"
-			],
-			[
-				"function_exi",
-				"function_exists()	Core Function"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "src/NaturalDeduction/Proof.hs",
+			"settings":
+			{
+				"buffer_size": 4448,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "test/NaturalDeduction/ProofSpec.hs",
+			"settings":
+			{
+				"buffer_size": 9193,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 2219,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -544,16 +568,24 @@
 	"command_palette":
 	{
 		"height": 400.0,
-		"last_filter": "clos",
+		"last_filter": "previ",
 		"selected_items":
 		[
 			[
-				"clos",
-				"File: Close All"
+				"previ",
+				"OmniMarkupPreviewer: Preview Current Markup in Browser"
+			],
+			[
+				"mini",
+				"View: Toggle Minimap"
 			],
 			[
 				"dele",
 				"File: Delete"
+			],
+			[
+				"clos",
+				"File: Close All"
 			],
 			[
 				"favo",
@@ -641,10 +673,6 @@
 			],
 			[
 				"min",
-				"View: Toggle Minimap"
-			],
-			[
-				"mini",
 				"View: Toggle Minimap"
 			],
 			[
@@ -802,10 +830,6 @@
 			[
 				"html",
 				"Set Syntax: HTML"
-			],
-			[
-				"previ",
-				"Markdown Preview: Preview in Browser"
 			],
 			[
 				"pre",
@@ -1089,7 +1113,9 @@
 	},
 	"expanded_folders":
 	[
-		"/F/Projects/natural-deduction"
+		"/F/Projects/natural-deduction",
+		"/F/Projects/natural-deduction/src",
+		"/F/Projects/natural-deduction/src/NaturalDeduction"
 	],
 	"file_history":
 	[
@@ -1441,8 +1467,341 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/NaturalDeduction/Proof.hs",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 4448,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								560,
+								265
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "haskell-sublimehaskell",
+							"apply_syntax_touched": true,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"line_numbers": false,
+							"syntax": "Packages/SublimeHaskell/Syntaxes/Haskell-SublimeHaskell.tmLanguage",
+							"vintage":
+							{
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 0
+							},
+							"vintage_lines.line": 12,
+							"vintage_lines.lines": 121,
+							"vintage_lines.mode": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "test/NaturalDeduction/ProofSpec.hs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9193,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								758,
+								758
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "haskell-sublimehaskell",
+							"apply_syntax_touched": true,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"line_numbers": false,
+							"syntax": "Packages/SublimeHaskell/Syntaxes/Haskell-SublimeHaskell.tmLanguage",
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 30
+							},
+							"vintage_lines.line": 34,
+							"vintage_lines.lines": 209,
+							"vintage_lines.mode": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 360.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2219,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1484,
+								1484
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "markdown",
+							"apply_syntax_touched": true,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"is_xml": false,
+							"line_numbers": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 46
+							},
+							"vintage_lines.line": 55,
+							"vintage_lines.lines": 90,
+							"vintage_lines.mode": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 660.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1463,11 +1822,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.423668314113,
 			1.0
 		],
 		"rows":
@@ -1514,6 +1880,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"proofsp",
+				"test\\NaturalDeduction\\ProofSpec.hs"
+			],
 			[
 				"logincon",
 				"controllers\\LoginController.php"
@@ -2021,10 +2391,6 @@
 			[
 				"wagecon",
 				"controllers\\WageController.php"
-			],
-			[
-				"rolecon",
-				"controllers\\RoleController.php"
 			]
 		],
 		"width": 0.0
@@ -2175,7 +2541,7 @@
 		],
 		"width": 834.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 		"_vintageous_reset_during_init": true,
@@ -2184,10 +2550,10 @@
 			"_cmdline_cd": "F:\\Dropbox\\Programs\\SublimeText"
 		}
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 290.0,
 	"status_bar_visible": true,
 	"template_settings":

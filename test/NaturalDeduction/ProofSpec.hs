@@ -203,6 +203,18 @@ spec = do
 
             checkProof t p `shouldBe` Right (lnot _B --> lnot _A)
 
+        it "checks A --> B, A --> -B   |-   -A   correctly" $ do
+            let t = Theorem [_A --> _B, _A --> lnot _B] (lnot _A)
+                p = ImplI (ImplE (ImplE (Assume _A, Assume $ _A --> _B)
+                                        _B,
+                                  ImplE (Assume _A, Assume $ _A --> lnot _B)
+                                        (lnot _B)
+                                 )
+                                 false
+                          )
+                          (lnot _A)
+
+            checkProof t p `shouldBe` Right (lnot _A)
 
 
 
