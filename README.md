@@ -47,14 +47,11 @@ data Proof
 ```
 
 ## Examples
-### Example. $ P, Q \vdash P \wedge Q $
+### Example 1
+![T1](http://mathurl.com/pzq9dmo.png)
 
 Proof
-$$
-\dfrac{
-    P \quad\quad Q
-}{ P \wedge Q } {\scriptstyle \{ \wedge I \} }
-$$
+![Eq1](http://mathurl.com/qxpd65u.png)
 
 Check
 ```haskell
@@ -66,16 +63,12 @@ Check
     checkProof t p2 -- Left "Could not prove (P /\\ R) from P Q"
 ```
 
-### Example. $ P \wedge Q \vdash P $
-
+### Example 2
+![T2](http://mathurl.com/p2z84sk.png)
 
 Proof
 
-$$
-\dfrac{
-    P \wedge Q
-}{P} {\scriptstyle \{ \wedge E_L \} }
-$$
+![Eq2](http://mathurl.com/nwf84tq.png)
 
 Check
 ```haskell
@@ -88,18 +81,13 @@ Check
 ```
 
 
-### Example. $ A \vdash \lnot (\lnot A) $
+### Example 3
+![T3](http://mathurl.com/pdctnnc.png)  
 Slightly more complex
 
 Proof
+![Eq3](http://mathurl.com/opwyaxd.png)
 
-$$
-\dfrac{
-    \dfrac{
-        A \quad \boxed{A → \mathtt{False}}
-    }{\mathtt{False}} {\scriptstyle \{ →E \}}
-}{(A → \mathtt{False}) → \mathtt{False}} {\scriptstyle \{ →I \}}
-$$
 [1]: http://github.com/adamschoenemann/truth-table
 
 Check
@@ -114,27 +102,13 @@ Check
     checkProof t p `shouldBe` Right (lnot $ lnot _A)
 ```
 
-### Example. $ A, A → B, B → C, C → D $
+### Example 4
 Even more complex
-
+![T4](http://mathurl.com/nlzg97b.png)
 
 Proof
+![Eq4](http://mathurl.com/o72owyf.png)
 
-$$
-\dfrac{
-    \dfrac{
-        \dfrac{
-            A
-            \quad
-            A → B
-        }{B} {\scriptstyle \{ →E\} }
-        \quad
-        \dfrac{}{B → C}
-    }{C}                    {\scriptstyle \{ →E\} }
-    \quad
-    \dfrac{}{ C → D }
-}{D}    {\scriptstyle \{ →E\}}
-$$
 
 Check
 ```haskell
