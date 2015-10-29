@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"shoul",
+				"shouldBe"
+			],
+			[
+				"check",
+				"checkProof"
+			],
+			[
 				"as",
 				"assumptions"
 			],
@@ -506,14 +514,6 @@
 			[
 				"Hol",
 				"HolidayTableSeeder	(HolidayTableSeeder.php)"
-			],
-			[
-				"comm",
-				"comment"
-			],
-			[
-				"insert",
-				"insertTestTemplates"
 			]
 		]
 	},
@@ -531,7 +531,7 @@
 			"file": "test/NaturalDeduction/ProofSpec.hs",
 			"settings":
 			{
-				"buffer_size": 9193,
+				"buffer_size": 9760,
 				"line_ending": "Windows"
 			}
 		},
@@ -539,7 +539,7 @@
 			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 2219,
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		}
@@ -568,9 +568,13 @@
 	"command_palette":
 	{
 		"height": 400.0,
-		"last_filter": "previ",
+		"last_filter": "omni",
 		"selected_items":
 		[
+			[
+				"omni",
+				"OmniMarkupPreviewer: Preview Current Markup in Browser"
+			],
 			[
 				"previ",
 				"OmniMarkupPreviewer: Preview Current Markup in Browser"
@@ -1078,10 +1082,6 @@
 			[
 				"syntax ba",
 				"Set Syntax: Batch File"
-			],
-			[
-				"shader",
-				"Set Syntax: Unity Shader"
 			]
 		],
 		"width": 544.0
@@ -1267,6 +1267,12 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"Software Development",
+			"Theorem.",
+			"Theorem",
+			"\\\\",
+			"-->",
+			"\\\\",
 			"$post",
 			"storage_path() . '/backup/'",
 			"=>",
@@ -1388,13 +1394,7 @@
 			"$b",
 			"$a",
 			"($wd_id,",
-			"'wage_day_id'",
-			"start",
-			"'start'",
-			"]),",
-			"new WageDayInterval([",
-			"next",
-			"withDummies"
+			"'wage_day_id'"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1574,13 +1574,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -1589,15 +1589,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9193,
+						"buffer_size": 9760,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								758,
-								758
+								7319,
+								7319
 							]
 						],
 						"settings":
@@ -1608,26 +1608,16 @@
 							"apply_syntax_touched": true,
 							"bh_regions":
 							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
@@ -1643,11 +1633,21 @@
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
@@ -1658,11 +1658,11 @@
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
 							],
 							"line_numbers": false,
 							"syntax": "Packages/SublimeHaskell/Syntaxes/Haskell-SublimeHaskell.tmLanguage",
@@ -1679,17 +1679,17 @@
 								"partial_sequence": "",
 								"register": "\"",
 								"sequence": "",
-								"xpos": 30
+								"xpos": 0
 							},
-							"vintage_lines.line": 34,
-							"vintage_lines.lines": 209,
+							"vintage_lines.line": 179,
+							"vintage_lines.lines": 221,
 							"vintage_lines.mode": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 360.0,
+						"translation.y": 3180.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -1698,15 +1698,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2219,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1484,
-								1484
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1717,26 +1717,16 @@
 							"apply_syntax_touched": true,
 							"bh_regions":
 							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
@@ -1752,11 +1742,21 @@
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
@@ -1767,11 +1767,11 @@
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
 							],
 							"is_xml": false,
 							"line_numbers": false,
@@ -1779,6 +1779,8 @@
 							"vintage":
 							{
 								"_vintageous_glue_until_normal_mode": false,
+								"_vintageous_non_interactive": false,
+								"_vintageous_processing_notation": false,
 								"action": null,
 								"action_count": "",
 								"mode": "mode_normal",
@@ -1789,17 +1791,17 @@
 								"partial_sequence": "",
 								"register": "\"",
 								"sequence": "",
-								"xpos": 46
+								"xpos": 0
 							},
-							"vintage_lines.line": 55,
-							"vintage_lines.lines": 90,
+							"vintage_lines.line": 65,
+							"vintage_lines.lines": 150,
 							"vintage_lines.mode": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 660.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -2544,6 +2546,10 @@
 	"selected_group": 1,
 	"settings":
 	{
+		"_vintageous_last_buffer_search": "ass",
+		"_vintageous_last_buffer_search_command": "vi_slash",
+		"_vintageous_last_char_search_command": "vi_big_f",
+		"_vintageous_last_character_search": "_",
 		"_vintageous_reset_during_init": true,
 		"vintage":
 		{

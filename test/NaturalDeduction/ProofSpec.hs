@@ -8,10 +8,11 @@ _B = Var "B"
 _C = Var "C"
 _D = Var "D"
 
-_P,_Q,_R :: WFF
+_P,_Q,_R,_S :: WFF
 _P = Var "P"
 _Q = Var "Q"
 _R = Var "R"
+_S = Var "S"
 
 false, true :: WFF
 false = (Const False)
@@ -216,6 +217,49 @@ spec = do
 
             checkProof t p `shouldBe` Right (lnot _A)
 
+        it "checks A \\/ (B \\/ C) |- (A \\/ B) \\/ C correctly" $ do
+            let t = Theorem [_A \/ (_B \/ _C)] ((_A \/ _B) \/ _C)
+                p = OrE ( Assume (_A \/ (_B \/ _C))
+                        , OrIL (OrIL (Assume _A) (_A \/ _B)) ((_A \/ _B) \/ _C)
+                        , OrE ( Assume (_B \/ _C)
+                              , OrIL (OrIR (Assume _B) (_A \/ _B)) ((_A \/ _B) \/ _C)
+                              , OrIR (Assume _C) ((_A \/ _B) \/ _C)
+                              ) ((_A \/ _B) \/ _C)
+                        ) ((_A \/ _B) \/ _C)
+
+            checkProof t p `shouldBe` Right ((_A \/ _B) \/ _C)
+
+        it "checks P, Q, R, S |- (P /\\ Q) /\\ (R /\\ S) correctly" $ do
+            let t = Theorem [_P,_Q,_R,_S] ((_P /\ _Q) /\ (_R /\ _S))
+                p = AndI ( AndI (Assume _P, Assume _Q) (_P /\ _Q)
+                         , AndI (Assume _R, Assume _S) (_R /\ _S)
+                         ) ((_P /\ _Q) /\ (_R /\ _S))
+
+            checkProof t p `shouldBe` Right ((_P /\ _Q) /\ (_R /\ _S))
+
+        it "checks P --> R |- P /\\ Q --> R correctly" $ do
+            let t = Theorem [_P --> _R] ((_P /\ _Q) --> _R)
+                p = ImplI (ImplE ( AndEL (Assume $ _P /\ _Q) _P
+                                 , Assume $ _P --> _R
+                                 ) _R
+                          ) ((_P /\ _Q) --> _R)
+            checkProof t p `shouldBe` Right ((_P /\ _Q) --> _R)
+
+        it "checks |- True \\/ True <--> True correctly" $ do
+            let t1 = Theorem [] (true \/ true --> true)
+                p1 = ImplI (OrE ( Assume $ true \/ true
+                               , ID (Assume true) true
+                               , ID (Assume true) true
+                               ) true
+                           ) (true \/ true --> true)
+
+            checkProof t1 p1 `shouldBe` Right (true \/ true --> true)
+
+            let t2 = Theorem [] (true --> true \/ true)
+                p2 = ImplI  (OrIL (Assume true) (true \/ true))
+                            (true --> true \/ true)
+
+            checkProof t2 p2 `shouldBe` Right (true --> true \/ true)
 
 
 main :: IO ()

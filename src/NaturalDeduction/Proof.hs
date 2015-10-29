@@ -105,7 +105,7 @@ checkProof t p =
                 _             -> throwError $ "False must be assumed in CTR"
 
         RAA a c -> do
-            a' <- checkProof (Theorem (c --> (Const False) : asmpts) (Const False)) a
+            a' <- checkProof (Theorem ((c --> (Const False)) : asmpts) (Const False)) a
             if a' == (Const False)
                 then return c
                 else throwError $ "RAA must have False as the assumption"
